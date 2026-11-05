@@ -13,8 +13,8 @@
       "main_scene": "espresso_test.usda",
       "fixed_base_scene": "espresso_fixed_base.usda",
       "recorder": "record_espresso_motion.py",
-      "total_mass_kg": 0.55722,
-      "mass_provenance": "per-part slicer estimates",
+      "total_mass_kg": 0.5584676279674846,
+      "mass_provenance": "latest STEP geometric estimate: PLA, 15% infill, settings from supplied 3MF",
       "angular_limits_enabled": false,
       "video": "media/espresso_open_close_updated.mp4",
       "numeric_tracking_report": "validation/espresso_open_close_updated.json",
@@ -28,7 +28,10 @@
         "scale": 1,
         "scene_props_active": false,
         "articulation_root_authored_by_default": false
-      }
+      },
+      "source_STEP_sha256": "338b6787ffbdb3f9d80bba38385c2abcda6ae35f4dda30a289948efa58a8ad5c",
+      "revision": "20261105",
+      "validation_summary": "validation/runtime_summary.json"
     },
     {
       "name": "microwave",

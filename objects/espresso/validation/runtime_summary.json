@@ -1,0 +1,11 @@
+{
+  "source": "supervised server run with package and output hashes",
+  "source_STEP_sha256": "338b6787ffbdb3f9d80bba38385c2abcda6ae35f4dda30a289948efa58a8ad5c",
+  "passive_check_passed": true,
+  "joint_tracking_passed": true,
+  "recording_checks_passed": true,
+  "completed_at_utc": "2026-11-05T23:53:31.067438+00:00",
+  "numeric_runtime_reports_archived": true,
+  "rerun_independently_on_another_host": false,
+  "scope": "passive smoke check, isolated motor tracking, dynamic external-torque video; no robot task"
+}

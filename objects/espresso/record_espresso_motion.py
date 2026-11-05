@@ -48,7 +48,7 @@ def axis_and_angle(q_body, q_handle):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--headless', action='store_true')
-    parser.add_argument('--angle', type=float, default=90., help='Demo target, not a joint limit')
+    parser.add_argument('--angle', type=float, default=-90., help='Demo target, not a joint limit')
     parser.add_argument('--output', default='espresso_open_close_updated.mp4')
     args, unknown = parser.parse_known_args()
     if not math.isfinite(args.angle):

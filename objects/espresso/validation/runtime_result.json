@@ -1,0 +1,91 @@
+{
+  "passed": true,
+  "checks": {
+    "target_error_under_3deg": true,
+    "anchor_error_under_0p5mm": true,
+    "off_axis_under_1deg": true,
+    "unlimited_joint_authored": true,
+    "crossed_old_lower_limit": true,
+    "crossed_old_upper_limit": true
+  },
+  "finals": [
+    {
+      "target_deg": 0,
+      "step": 359,
+      "actual_deg": 5.684341886080802e-14,
+      "anchor_error_m": 9.0727776793569e-09,
+      "off_axis_deg": 6.928659074606674e-06
+    },
+    {
+      "target_deg": -30,
+      "step": 359,
+      "actual_deg": -29.991499104290313,
+      "anchor_error_m": 4.307625227389886e-08,
+      "off_axis_deg": 4.348340228237374e-06
+    },
+    {
+      "target_deg": 0,
+      "step": 359,
+      "actual_deg": -0.00848650901656356,
+      "anchor_error_m": 7.57933367939377e-09,
+      "off_axis_deg": 1.2042504671359196e-05
+    },
+    {
+      "target_deg": 30,
+      "step": 359,
+      "actual_deg": 29.99150723337658,
+      "anchor_error_m": 2.669858909927894e-08,
+      "off_axis_deg": 6.926137729865335e-06
+    },
+    {
+      "target_deg": 60,
+      "step": 359,
+      "actual_deg": 59.991509078054975,
+      "anchor_error_m": 5.511042585201064e-08,
+      "off_axis_deg": 7.749015505616352e-06
+    },
+    {
+      "target_deg": 90,
+      "step": 359,
+      "actual_deg": 89.99149977525121,
+      "anchor_error_m": 8.409341288346261e-08,
+      "off_axis_deg": 4.580236003427148e-06
+    },
+    {
+      "target_deg": 120,
+      "step": 359,
+      "actual_deg": 119.99151366942891,
+      "anchor_error_m": 1.0726749959836226e-08,
+      "off_axis_deg": 1.094027346516807e-05
+    },
+    {
+      "target_deg": 90,
+      "step": 359,
+      "actual_deg": 90.00849539400144,
+      "anchor_error_m": 1.0726749959836226e-08,
+      "off_axis_deg": 1.1807409930778267e-05
+    },
+    {
+      "target_deg": 60,
+      "step": 359,
+      "actual_deg": 60.00850157583238,
+      "anchor_error_m": 5.0431714242645346e-08,
+      "off_axis_deg": 1.1139708309921562e-05
+    },
+    {
+      "target_deg": 30,
+      "step": 359,
+      "actual_deg": 30.008506205891024,
+      "anchor_error_m": 9.308338441919376e-09,
+      "off_axis_deg": 8.976954422510933e-06
+    },
+    {
+      "target_deg": 0,
+      "step": 359,
+      "actual_deg": 0.008500169393187207,
+      "anchor_error_m": 1.9668394983240647e-08,
+      "off_axis_deg": 7.984311146989506e-06
+    }
+  ],
+  "scope": "fixed-base motor test replaces the passive brake IN MEMORY; no validation of friction, dynamic base stability, robot grasp, or sim2real"
+}

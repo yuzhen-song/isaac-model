@@ -1,0 +1,89 @@
+{
+  "status": "geometric estimate for revised STEP, not a new slicer result or measured mass",
+  "method": "Layer sections with solid walls, top/bottom skins and sparse interior, normalized to exact STEP volume",
+  "settings_source": "existing espressonmachine.gcode.3mf project settings, geometry from latest STEP",
+  "settings": {
+    "sparse_infill_density": "15%",
+    "wall_loops": "2",
+    "outer_wall_line_width": "0.42",
+    "inner_wall_line_width": "0.45",
+    "layer_height": "0.2",
+    "top_shell_layers": "5",
+    "top_shell_thickness": "1",
+    "bottom_shell_layers": "3",
+    "bottom_shell_thickness": "0",
+    "filament_density": [
+      "1.26",
+      "1.28",
+      "1.26",
+      "1.26",
+      "1.26"
+    ],
+    "nozzle_diameter": [
+      "0.4"
+    ]
+  },
+  "density_g_cm3": 1.26,
+  "sparse_infill_fraction": 0.15,
+  "assumed_wall_thickness_mm": 0.87,
+  "layer_height_mm": 0.2,
+  "top_layers": 5,
+  "bottom_layers": 3,
+  "orientation": "each current STEP part local Z is assumed to be its print build direction; actual plate orientations are not recovered",
+  "exclusions": [
+    "supports",
+    "brim",
+    "purge",
+    "toolpath overlap",
+    "variable line width",
+    "bridge rules"
+  ],
+  "source_STEP_sha256": "338b6787ffbdb3f9d80bba38385c2abcda6ae35f4dda30a289948efa58a8ad5c",
+  "parts": {
+    "bottom": {
+      "CAD_volume_mm3": 1789084.2562799414,
+      "shell_volume_mm3": 192702.5653891216,
+      "infill_region_volume_mm3": 1596381.6908908198,
+      "PLA_volume_mm3": 432159.81902274454,
+      "estimated_mass_g": 544.5213719686582,
+      "estimated_mass_kg": 0.5445213719686581,
+      "solid_PLA_mass_g": 2254.2461629127265,
+      "section_volume_correction_factor": 1.0000245094051898,
+      "layers": 600
+    },
+    "stick": {
+      "CAD_volume_mm3": 23684.119685874764,
+      "shell_volume_mm3": 6729.884777709442,
+      "infill_region_volume_mm3": 16954.234908165326,
+      "PLA_volume_mm3": 9273.020013934241,
+      "estimated_mass_g": 11.684005217557143,
+      "estimated_mass_kg": 0.011684005217557143,
+      "solid_PLA_mass_g": 29.841990804202204,
+      "section_volume_correction_factor": 1.0005176777181546,
+      "layers": 721
+    },
+    "1": {
+      "CAD_volume_mm3": 2147.474928269473,
+      "shell_volume_mm3": 960.389398813715,
+      "infill_region_volume_mm3": 1187.0855294557578,
+      "PLA_volume_mm3": 1138.4522282320786,
+      "estimated_mass_g": 1.434449807572419,
+      "estimated_mass_kg": 0.001434449807572419,
+      "solid_PLA_mass_g": 2.705818409619536,
+      "section_volume_correction_factor": 0.999727283092865,
+      "layers": 100
+    },
+    "2": {
+      "CAD_volume_mm3": 827.4876509739174,
+      "shell_volume_mm3": 626.8961789568607,
+      "infill_region_volume_mm3": 200.59147201705676,
+      "PLA_volume_mm3": 656.9848997594192,
+      "estimated_mass_g": 0.8278009736968682,
+      "estimated_mass_kg": 0.0008278009736968682,
+      "solid_PLA_mass_g": 1.042634440227136,
+      "section_volume_correction_factor": 1.0001441405822729,
+      "layers": 100
+    }
+  },
+  "estimated_total_mass_g": 558.4676279674845
+}

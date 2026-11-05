@@ -8,8 +8,8 @@
     "angle": "degree"
   },
   "origin_xyz": [
-    0.21146690151718306,
-    -0.09326991421319647,
+    0.1801431382746749,
+    -0.058,
     0.109
   ],
   "axis_xyz": [
@@ -19,90 +19,90 @@
   ],
   "zero": "exact exported STEP pose",
   "body_fixed_to_world": false,
-  "mass_handle_kg": 0.00653,
+  "mass_handle_kg": 0.011684005217557143,
   "hardware_assignment": {
     "1": "rigidly attached to Body",
     "2": "rigidly attached to Body"
   },
-  "hardware_assignment_status": "same ideal hinge convention as original package; aggregate hardware mass is known, individual split for inertia is estimated by CAD volume",
+  "hardware_assignment_status": "pin and cap aggregated with Body; masses estimated separately",
   "rotation_limits_enabled": false,
   "rotation_limits": {
     "lower": "-inf",
     "upper": "+inf"
   },
-  "material": "white PLA",
-  "mass_body_print_kg": 0.54812,
-  "mass_pin_and_cap_total_kg": 0.00257,
-  "mass_body_rigid_assembly_kg": 0.55069,
-  "mass_total_kg": 0.55722,
-  "mass_source": "User slicer screenshots; stick 6.75 g minus 0.22 g brim; estimates, not measured values",
+  "material": "white PLA, 15% sparse infill; settings read from supplied 3MF",
+  "mass_body_print_kg": 0.5445213719686581,
+  "mass_pin_and_cap_total_kg": 0.0022622507812692875,
+  "mass_body_rigid_assembly_kg": 0.5467836227499274,
+  "mass_total_kg": 0.5584676279674846,
+  "mass_source": "geometric estimate for latest STEP, not the old slicer screenshot weights",
   "part_masses_kg": {
-    "bottom": 0.54812,
-    "stick": 0.00653,
-    "1": 0.0019940106713456324,
-    "2": 0.0005759893286543673
+    "bottom": 0.5445213719686581,
+    "stick": 0.011684005217557143,
+    "1": 0.001434449807572419,
+    "2": 0.0008278009736968682
   },
   "body_mass_properties": {
-    "mass_kg": 0.55069,
+    "mass_kg": 0.5467836227499274,
     "center_of_mass_local_m": [
-      0.12128854474404038,
-      -0.05525070189778039,
-      0.11547387710381438
+      0.11993054889743181,
+      -0.05504619875579718,
+      0.11555334628884426
     ],
     "inertia_tensor_local_kg_m2": [
       [
-        0.001974796198509997,
-        9.735617140772263e-06,
-        2.1092372259980695e-05
+        0.0019954856266947893,
+        4.232397351574823e-07,
+        1.802214591644198e-05
       ],
       [
-        9.735617140772263e-06,
-        0.004367702063453102,
-        7.250611087185171e-05
+        4.232397351574823e-07,
+        0.004373211325963135,
+        7.446228299282417e-05
       ],
       [
-        2.1092372259980695e-05,
-        7.250611087185171e-05,
-        0.003405270372008522
+        1.802214591644198e-05,
+        7.446228299282417e-05,
+        0.0033921011555204
       ]
     ],
     "principal_inertia_kg_m2": [
-      0.0019744538318617545,
-      0.003400127946775859,
-      0.004373186855334008
+      0.0019952529831444646,
+      0.003386713270258065,
+      0.004378831854775798
     ],
-    "inertia_model": "CAD shape with per-part uniform effective density; infill distribution not reconstructed"
+    "inertia_model": "per-part uniform effective density scaled to estimated shell/infill mass"
   },
   "handle_mass_properties": {
-    "mass_kg": 0.00653,
+    "mass_kg": 0.011684005217557143,
     "center_of_mass_local_m": [
-      -0.0033110971147864154,
-      -0.06606005581052463,
-      -9.454413238407788e-09
+      0.013877512433027456,
+      -0.03843276455023938,
+      -1.374726665837045e-09
     ],
     "inertia_tensor_local_kg_m2": [
       [
-        6.685208184559366e-06,
-        -3.242042698928744e-07,
-        4.4346432116550126e-13
+        2.5253054189035868e-05,
+        8.667867330999681e-06,
+        -3.020204236721825e-13
       ],
       [
-        -3.242042698928744e-07,
-        2.3320083655361807e-07,
-        2.0327322610244007e-12
+        8.667867330999681e-06,
+        4.377865126987559e-06,
+        6.184468684040359e-13
       ],
       [
-        4.4346432116550126e-13,
-        2.0327322610244007e-12,
-        6.724551900566321e-06
+        -3.020204236721825e-13,
+        6.184468684040359e-13,
+        2.9410990928098218e-05
       ]
     ],
     "principal_inertia_kg_m2": [
-      2.1695095580464156e-07,
-      6.701458065302656e-06,
-      6.724551900572007e-06
+      1.248024245897998e-06,
+      2.838289507012541e-05,
+      2.941099092809824e-05
     ],
-    "inertia_model": "CAD shape with per-part uniform effective density; infill distribution not reconstructed"
+    "inertia_model": "per-part uniform effective density scaled to estimated shell/infill mass"
   },
   "hinge_resistance": {
     "model": "saturated viscous zero-velocity drive",
@@ -135,5 +135,7 @@
     0
   ],
   "test_targets_note": "Commands for validation, not joint limits",
-  "Isaac_runtime_tested": false
+  "Isaac_runtime_tested": false,
+  "source_STEP_sha256": "338b6787ffbdb3f9d80bba38385c2abcda6ae35f4dda30a289948efa58a8ad5c",
+  "revision": "20261105"
 }

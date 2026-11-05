@@ -10,7 +10,7 @@ appearance, masses, collision geometry and unlimited hinges are already configur
 
 | Object | Assets and configuration | Main scene | Mass source | Demonstration |
 | --- | --- | --- | --- | --- |
-| Espresso machine | [objects/espresso](objects/espresso/) | [espresso_test.usda](objects/espresso/espresso_test.usda) | Slicer estimates; **557.22 g** total | [0° → 90° → 0° video](objects/espresso/media/espresso_open_close_updated.mp4); [tracking report](objects/espresso/validation/espresso_open_close_updated.json) |
+| Espresso machine | [objects/espresso](objects/espresso/) | [espresso_test.usda](objects/espresso/espresso_test.usda) | PLA, 15% infill; **558.47 g** estimated total | [0° → −90° → 0° video](objects/espresso/media/espresso_open_close_updated.mp4); [tracking report](objects/espresso/validation/espresso_open_close_updated.json) |
 | Microwave | [objects/microwave](objects/microwave/) | [microwave_test.usda](objects/microwave/microwave_test.usda) | PLA, **15% infill** plus provisional shell settings; **523.55 g** estimated total | [0° → −90° → 0° video](objects/microwave/media/microwave_open_close.mp4); [validation summary](objects/microwave/validation/runtime_summary.json) |
 
 Both scenes use metres, kilograms and a Z-up world, with a movable body and an
@@ -112,8 +112,8 @@ driver. Standard working graphics environments can use their default configurati
 
 ## Physics assumptions and validation
 
-- Espresso masses come from the supplied per-part slicer screenshots. Microwave
-  masses are a geometric estimate using 1.24 g/cm³ PLA, 15% sparse infill,
+- Espresso masses are geometric estimates for the revised STEP, using the
+  supplied 3MF PLA/15% settings; see its `mass_estimate.json`. Microwave masses are a geometric estimate using 1.24 g/cm³ PLA, 15% sparse infill,
   0.8 mm walls and 0.6 mm top/bottom thickness; see its `mass_estimate.json`.
 - Pins and caps belong to their fixed body rigid actor and are not counted twice.
   Inertias use each CAD part's uniform effective density; actual infill lattices

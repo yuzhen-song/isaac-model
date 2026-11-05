@@ -1,0 +1,163 @@
+{
+  "files": [
+    {
+      "file": "docs/geometry_and_joint_check.json",
+      "bytes": 5572,
+      "sha256": "d6df4951075b5b1224d2634cf14f77894dface4ba97f64c2eec137ab8b60f35c"
+    },
+    {
+      "file": "docs/usd_static_validation.json",
+      "bytes": 2107,
+      "sha256": "3040d74d7364349b34a1101b080ef1e2c3816e7c36ffd72f5b5e3928f0dc82d1"
+    },
+    {
+      "file": "espresso_asset.usda",
+      "bytes": 341,
+      "sha256": "c4c421c0258dcd422d88f7c6ea15235d22d6b89bcb8fe142b0f6e2b57f52b517"
+    },
+    {
+      "file": "espresso_fixed_base.usda",
+      "bytes": 230,
+      "sha256": "0ab6cbd5acd05212e6ee5a175141866a1bccbea9af177fa8df487c6c8feb32ca"
+    },
+    {
+      "file": "espresso_test.usda",
+      "bytes": 5497863,
+      "sha256": "a539ce6e9f5a01937836e6a52aa811376e177010b1c8e767b388056627225bc7"
+    },
+    {
+      "file": "joint_parameters.json",
+      "bytes": 4051,
+      "sha256": "2393b89d2e69bbdd5ed9a5b078409b1c8889017b9d2ddb5f1c62f217e6157f0b"
+    },
+    {
+      "file": "mass_estimate.json",
+      "bytes": 3161,
+      "sha256": "5bdfc2dfae00314b6ad4e15a55025b788d71085a7a0d866206eb7d831c9a98b5"
+    },
+    {
+      "file": "meshes_assembly_mm/1.stl",
+      "bytes": 42284,
+      "sha256": "3bd8149ad0804748e21322363c199c24d393b48aa7cca50f45d92e59a78dfbf1"
+    },
+    {
+      "file": "meshes_assembly_mm/2.stl",
+      "bytes": 42284,
+      "sha256": "70ae8c1577e8f61c5172b583d34ba465a7aed1c9b8925e7d937d9a3af5ebd6a1"
+    },
+    {
+      "file": "meshes_assembly_mm/bottom.stl",
+      "bytes": 4006184,
+      "sha256": "755c66b783aa7fe3ec844e747f110503d393d736e3fa48e04128a5e098f35424"
+    },
+    {
+      "file": "meshes_assembly_mm/stick.stl",
+      "bytes": 2261084,
+      "sha256": "8b8fb7dd61659a9dff241764fc16d6c31811b9601f2df9d13fb1ca9a901791ca"
+    },
+    {
+      "file": "meshes_sim_m/1.stl",
+      "bytes": 42284,
+      "sha256": "2714b70b194c530385a5356180b6faaf6f15e693ce4207a0067042b268260b5f"
+    },
+    {
+      "file": "meshes_sim_m/2.stl",
+      "bytes": 42284,
+      "sha256": "07173bad6c24d2824d365e45b1ad3b814de8b7812d611a99846f069e6eebe217"
+    },
+    {
+      "file": "meshes_sim_m/bottom.stl",
+      "bytes": 4006184,
+      "sha256": "5cbc94deb151dc575c5b292f6ce70f4f18d7a30f088be216cf917a27575b47e9"
+    },
+    {
+      "file": "meshes_sim_m/stick.stl",
+      "bytes": 2261084,
+      "sha256": "eda188e396f806f1be33caa9bb9eeed5f7a1c54972254a8c4c989f8ce9802f68"
+    },
+    {
+      "file": "print_settings.json",
+      "bytes": 418,
+      "sha256": "7b4d7e8e5d0d746cb5600ad3e33a8410a92e425c31242b6aa8fddc50994df909"
+    },
+    {
+      "file": "publish_revision.py",
+      "bytes": 7408,
+      "sha256": "e5c88bda9b43f47b8c0197669a94bbde25e144b8b5fb49cd8389ff882e5b3714"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2829,
+      "sha256": "917e8eb14167a55fedb39eb9cc7290415207cbf989f40975c86c96827b09e24b"
+    },
+    {
+      "file": "record_espresso_motion.py",
+      "bytes": 11618,
+      "sha256": "1e930e8c81f34dcc051485d542c10faae7c9d401eea3b54f53e468c990cfdab6"
+    },
+    {
+      "file": "requirements.txt",
+      "bytes": 57,
+      "sha256": "bd8cff680d7b82c47beb8efb4520b1312fb1e49e1434faccd0944711b47218a7"
+    },
+    {
+      "file": "revision_checks.py",
+      "bytes": 3194,
+      "sha256": "509feca9610559d1c1068cbf183186545153227fcb2008972023d11dae865ab1"
+    },
+    {
+      "file": "run_checks_and_record.py",
+      "bytes": 3139,
+      "sha256": "fa4e2f9503834e7ea911dfb5fa2325aa7cb24ee83208561a1d3f9804f047933b"
+    },
+    {
+      "file": "run_isaac_check.py",
+      "bytes": 3901,
+      "sha256": "78a1032393b118f99205bc40ab1e26f0961b9b6dfa7cb3748626a1ee546b9712"
+    },
+    {
+      "file": "RUN_ON_SSH.md",
+      "bytes": 1854,
+      "sha256": "b033e253f7469959432ed1ceffe196b21faf9c56f103fe1082fa226a1b0a62af"
+    },
+    {
+      "file": "run_passive_scene.py",
+      "bytes": 3744,
+      "sha256": "4f46d68d10ee41a7ec512b9efc2b857a12283ab4eea273870a502fc3efd206c8"
+    },
+    {
+      "file": "source_cad/1.SLDPRT",
+      "bytes": 55121,
+      "sha256": "955d79d3485238a1265d9086c2d0077426f1a5a0edc386eab7f77e14eb6fb266"
+    },
+    {
+      "file": "source_cad/2.SLDPRT",
+      "bytes": 51672,
+      "sha256": "62b212349ca7d49ff2660ae3b67b705a3ba49adca720706b9199657d70afa461"
+    },
+    {
+      "file": "source_cad/bottom.SLDPRT",
+      "bytes": 401606,
+      "sha256": "b4596446f5d4035833f0f6841e0f5404f510bc978d64a1328040a3631e9c02ad"
+    },
+    {
+      "file": "source_cad/espressonmachine.SLDASM",
+      "bytes": 297956,
+      "sha256": "f127cbfec7845913ba0d38c4106f78b205666b2bbdfece35d4a82aaa1030f073"
+    },
+    {
+      "file": "source_cad/espressonmachine.STEP",
+      "bytes": 540356,
+      "sha256": "338b6787ffbdb3f9d80bba38385c2abcda6ae35f4dda30a289948efa58a8ad5c"
+    },
+    {
+      "file": "source_cad/stick.SLDPRT",
+      "bytes": 216977,
+      "sha256": "3c1c2651a6e94c84c5cb4ddbeae0248aec98c35e9419ebffc0a33aacae20c348"
+    }
+  ],
+  "source_STEP_sha256": "338b6787ffbdb3f9d80bba38385c2abcda6ae35f4dda30a289948efa58a8ad5c",
+  "revision": "20261105",
+  "scope": "build-time input files; generated runtime evidence is separate",
+  "runtime_status": "new server validation required"
+}

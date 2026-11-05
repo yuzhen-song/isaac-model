@@ -101,7 +101,7 @@ add_reference_to_stage(
 
 | 物体 | 刚体质量 | 旋转关节 |
 | --- | --- | --- |
-| 咖啡机 | Body 0.55069 kg；Handle 0.00653 kg | `Espresso/handle_hinge` |
+| 咖啡机 | Body 0.54678362 kg；Handle 0.01168401 kg | `Espresso/handle_hinge` |
 | 微波炉 | Body 约 0.48839275 kg；Door 约 0.03516145 kg | `Microwave/door_hinge` |
 
 白色 PLA 外观、质量、惯性、凸分解碰撞和被动关节阻力已写入 USD。

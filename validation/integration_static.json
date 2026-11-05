@@ -3,29 +3,81 @@
   "new_loading_example_gpu_runtime_tested": false,
   "objects": {
     "espresso": {
-      "passed": true,
-      "asset_sha256": "c4c421c0258dcd422d88f7c6ea15235d22d6b89bcb8fe142b0f6e2b57f52b517",
-      "source_usd_sha256": "82f07b9cc87571be3428822c8cc95283c930243088b0dde60caec2e8fc004dcd",
-      "demo_props_inactive": true,
-      "units_verified": true,
-      "mass_inertia_and_brake_preserved": true,
-      "materials_and_relationships_resolved": true,
-      "instances": [
-        {
-          "alias": "espresso",
-          "body": "/World/Objects/Test0/Espresso/Body",
-          "moving": "/World/Objects/Test0/Espresso/Handle",
-          "hinge": "/World/Objects/Test0/Espresso/handle_hinge",
-          "anchor_error_m": 7.4189410992626665e-09
-        },
-        {
-          "alias": "espressomachine",
-          "body": "/World/Objects/Test1/Espresso/Body",
-          "moving": "/World/Objects/Test1/Espresso/Handle",
-          "hinge": "/World/Objects/Test1/Espresso/handle_hinge",
-          "anchor_error_m": 7.418941100903734e-09
-        }
-      ]
+      "static_checks_passed": true,
+      "revision": "20261105",
+      "source_STEP_sha256": "338b6787ffbdb3f9d80bba38385c2abcda6ae35f4dda30a289948efa58a8ad5c",
+      "mesh_count": 4,
+      "positive_inertia_and_reconstruction_verified": true,
+      "joint_anchors_coincident": true,
+      "unlimited_joint": true,
+      "dynamic_body": true,
+      "passive_brake_torque_cap_Nm": 0.02,
+      "total_mass_kg": 0.5584676279674846,
+      "body_mass_properties": {
+        "mass_kg": 0.5467836227499274,
+        "center_of_mass_local_m": [
+          0.11993054889743181,
+          -0.05504619875579718,
+          0.11555334628884426
+        ],
+        "inertia_tensor_local_kg_m2": [
+          [
+            0.0019954856266947893,
+            4.232397351574823e-07,
+            1.802214591644198e-05
+          ],
+          [
+            4.232397351574823e-07,
+            0.004373211325963135,
+            7.446228299282417e-05
+          ],
+          [
+            1.802214591644198e-05,
+            7.446228299282417e-05,
+            0.0033921011555204
+          ]
+        ],
+        "principal_inertia_kg_m2": [
+          0.0019952529831444646,
+          0.003386713270258065,
+          0.004378831854775798
+        ],
+        "inertia_model": "per-part uniform effective density scaled to estimated shell/infill mass"
+      },
+      "handle_mass_properties": {
+        "mass_kg": 0.011684005217557143,
+        "center_of_mass_local_m": [
+          0.013877512433027456,
+          -0.03843276455023938,
+          -1.374726665837045e-09
+        ],
+        "inertia_tensor_local_kg_m2": [
+          [
+            2.5253054189035868e-05,
+            8.667867330999681e-06,
+            -3.020204236721825e-13
+          ],
+          [
+            8.667867330999681e-06,
+            4.377865126987559e-06,
+            6.184468684040359e-13
+          ],
+          [
+            -3.020204236721825e-13,
+            6.184468684040359e-13,
+            2.9410990928098218e-05
+          ]
+        ],
+        "principal_inertia_kg_m2": [
+          1.248024245897998e-06,
+          2.838289507012541e-05,
+          2.941099092809824e-05
+        ],
+        "inertia_model": "per-part uniform effective density scaled to estimated shell/infill mass"
+      },
+      "object_only_entrypoint_composed": true,
+      "Isaac_runtime_tested": false,
+      "runtime_evidence": "objects/espresso/validation/run_success.json"
     },
     "microwave": {
       "passed": true,
