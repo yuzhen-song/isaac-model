@@ -1,8 +1,10 @@
 # ARCTIC Object Models for Isaac Sim
 
-CAD models, printable meshes, articulated Isaac Sim scenes and demonstrations
-for ARCTIC-related object experiments. Each object has its own directory so that
-additional objects can be added without overwriting another object's parameters.
+3D models, physical parameters and ready-to-open Isaac Sim scenes for ARCTIC-related objects.
+
+**For teammates: [how to install and load the models in Isaac Sim](docs/ISAAC_LOADING.md).**
+The guide covers the environment, GUI loading and Python loading. White PLA
+appearance, masses, collision geometry and unlimited hinges are already configured.
 
 ## Available objects
 
@@ -42,7 +44,30 @@ apt-get install -y libxt6 libglu1-mesa libvulkan1
 See the [official Isaac Sim 5.1 requirements](https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/requirements.html)
 for driver and platform compatibility.
 
-## Run a scene
+## Load into an existing robot scene
+
+| ARCTIC name | Object-only entrypoint |
+| --- | --- |
+| `espressomachine` | [`objects/espresso/espresso_asset.usda`](objects/espresso/espresso_asset.usda) |
+| `microwave` | [`objects/microwave/microwave_asset.usda`](objects/microwave/microwave_asset.usda) |
+
+Use these entries when replacing the simulation asset. They keep geometry,
+materials, masses and the unlimited joint while disabling the demo table,
+physics scene, camera and light. Keep the complete object directory because the
+entries reference neighbouring files. Scale is **1**, in metres, kilograms, Z up.
+
+Run a standalone loading example from the repository root:
+
+```bash
+python examples/load_object.py --object microwave --headless --allow-root
+```
+
+To add an object to an existing stage, call `scripts.spawn_object.spawn_object`
+after starting `SimulationApp`; see the [loading guide](docs/ISAAC_LOADING.md)
+for a complete snippet and returned body/joint paths. New entrypoints have OpenUSD
+static validation; the new loading example still needs a runtime check in the target environment.
+
+## Run the original validation scene
 
 Open an object's main USDA in Isaac Sim and press Play. For a terminal check,
 change into that object's directory first:

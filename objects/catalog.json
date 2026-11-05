@@ -1,5 +1,9 @@
 {
-  "units": {"length": "metre", "mass": "kilogram", "up_axis": "Z"},
+  "units": {
+    "length": "metre",
+    "mass": "kilogram",
+    "up_axis": "Z"
+  },
   "isaac_sim_version": "5.1.0",
   "python_version": "3.11",
   "objects": [
@@ -13,7 +17,18 @@
       "mass_provenance": "per-part slicer estimates",
       "angular_limits_enabled": false,
       "video": "media/espresso_open_close_updated.mp4",
-      "numeric_tracking_report": "validation/espresso_open_close_updated.json"
+      "numeric_tracking_report": "validation/espresso_open_close_updated.json",
+      "arctic_name": "espressomachine",
+      "integration": {
+        "asset_file": "espresso_asset.usda",
+        "default_prim": "/Asset",
+        "body_relative_path": "Espresso/Body",
+        "moving_relative_path": "Espresso/Handle",
+        "hinge_relative_path": "Espresso/handle_hinge",
+        "scale": 1,
+        "scene_props_active": false,
+        "articulation_root_authored_by_default": false
+      }
     },
     {
       "name": "microwave",
@@ -26,7 +41,18 @@
       "angular_limits_enabled": false,
       "video": "media/microwave_open_close.mp4",
       "numeric_tracking_report": null,
-      "validation_summary": "validation/runtime_summary.json"
+      "validation_summary": "validation/runtime_summary.json",
+      "arctic_name": "microwave",
+      "integration": {
+        "asset_file": "microwave_asset.usda",
+        "default_prim": "/Asset",
+        "body_relative_path": "Microwave/Body",
+        "moving_relative_path": "Microwave/Door",
+        "hinge_relative_path": "Microwave/door_hinge",
+        "scale": 1,
+        "scene_props_active": false,
+        "articulation_root_authored_by_default": false
+      }
     }
   ]
 }

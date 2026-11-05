@@ -1,0 +1,57 @@
+{
+  "scope": "OpenUSD composition only; no Isaac GPU execution",
+  "new_loading_example_gpu_runtime_tested": false,
+  "objects": {
+    "espresso": {
+      "passed": true,
+      "asset_sha256": "c4c421c0258dcd422d88f7c6ea15235d22d6b89bcb8fe142b0f6e2b57f52b517",
+      "source_usd_sha256": "82f07b9cc87571be3428822c8cc95283c930243088b0dde60caec2e8fc004dcd",
+      "demo_props_inactive": true,
+      "units_verified": true,
+      "mass_inertia_and_brake_preserved": true,
+      "materials_and_relationships_resolved": true,
+      "instances": [
+        {
+          "alias": "espresso",
+          "body": "/World/Objects/Test0/Espresso/Body",
+          "moving": "/World/Objects/Test0/Espresso/Handle",
+          "hinge": "/World/Objects/Test0/Espresso/handle_hinge",
+          "anchor_error_m": 7.4189410992626665e-09
+        },
+        {
+          "alias": "espressomachine",
+          "body": "/World/Objects/Test1/Espresso/Body",
+          "moving": "/World/Objects/Test1/Espresso/Handle",
+          "hinge": "/World/Objects/Test1/Espresso/handle_hinge",
+          "anchor_error_m": 7.418941100903734e-09
+        }
+      ]
+    },
+    "microwave": {
+      "passed": true,
+      "asset_sha256": "9ad5311701c496eb1bf2110933566760ff4da6bcf5c51e2f416abe116ee5ba4c",
+      "source_usd_sha256": "ff949acaeddfba0f7e5b918e94b56cd5fb6045f2ab8f10d44c645e3036dea717",
+      "demo_props_inactive": true,
+      "units_verified": true,
+      "mass_inertia_and_brake_preserved": true,
+      "materials_and_relationships_resolved": true,
+      "instances": [
+        {
+          "alias": "microwave",
+          "body": "/World/Objects/Test0/Microwave/Body",
+          "moving": "/World/Objects/Test0/Microwave/Door",
+          "hinge": "/World/Objects/Test0/Microwave/door_hinge",
+          "anchor_error_m": 2.7592965738368715e-09
+        },
+        {
+          "alias": "microwave",
+          "body": "/World/Objects/Test1/Microwave/Body",
+          "moving": "/World/Objects/Test1/Microwave/Door",
+          "hinge": "/World/Objects/Test1/Microwave/door_hinge",
+          "anchor_error_m": 2.7592965715569843e-09
+        }
+      ]
+    }
+  },
+  "passed": true
+}

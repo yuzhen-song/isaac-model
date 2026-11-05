@@ -1,6 +1,11 @@
 {
   "files": [
     {
+      "file": "README.md",
+      "bytes": 5357,
+      "sha256": "c8f231b0c72da53b635dded37cbfa45778131e91de91308cc14002d13dc5edc3"
+    },
+    {
       "file": "docs/geometry_validation.json",
       "bytes": 1901,
       "sha256": "38038e69b6116769b2045661445d2606f4e9c9ba68fdd2320ecafbda12b68700"
@@ -66,6 +71,11 @@
       "sha256": "3c2cd5c58c5a2d4cb752a2a1448972d1be1ca7eafddcc29698c4c1a720e95ef4"
     },
     {
+      "file": "microwave_asset.usda",
+      "bytes": 342,
+      "sha256": "9ad5311701c496eb1bf2110933566760ff4da6bcf5c51e2f416abe116ee5ba4c"
+    },
+    {
       "file": "microwave_fixed_base.usda",
       "bytes": 232,
       "sha256": "7dc67af5f2c26715049886ec7cd1e64f3b74c4c0b30a6d489588cb8d39a46886"
@@ -74,11 +84,6 @@
       "file": "microwave_test.usda",
       "bytes": 932573,
       "sha256": "ff949acaeddfba0f7e5b918e94b56cd5fb6045f2ab8f10d44c645e3036dea717"
-    },
-    {
-      "file": "README.md",
-      "bytes": 5357,
-      "sha256": "c8f231b0c72da53b635dded37cbfa45778131e91de91308cc14002d13dc5edc3"
     },
     {
       "file": "record_microwave_motion.py",

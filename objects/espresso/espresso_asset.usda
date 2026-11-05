@@ -1,0 +1,17 @@
+#usda 1.0
+(
+    defaultPrim = "Asset"
+    metersPerUnit = 1
+    kilogramsPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "Asset" (
+    prepend references = @espresso_test.usda@</World>
+)
+{
+    over "PhysicsScene" (active = false) {}
+    over "Table" (active = false) {}
+    over "Light" (active = false) {}
+    over "Camera" (active = false) {}
+}
