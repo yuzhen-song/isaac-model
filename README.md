@@ -109,6 +109,22 @@ driver. Standard working graphics environments can use their default configurati
   current runtime evidence. Physical friction calibration and real robot trials
   remain separate work.
 
+## Archiving the microwave server run
+
+To also publish the exact assets, scripts and JSON/CSV reports used on the original
+server, run this in that server's terminal after testing has finished:
+
+```bash
+curl -fL https://raw.githubusercontent.com/yuzhen-song/isaac-model/main/scripts/publish_microwave_runtime.py -o /tmp/publish_microwave_runtime.py
+python /tmp/publish_microwave_runtime.py --source /root/autodl-tmp/microwave_updated/Microwave_Isaac_Handoff
+```
+
+Requires an authenticated GitHub CLI (`gh`) with write access to this repository.
+The helper uses a fresh working copy, archives reports and any of the three known
+test logs, records source hashes, updates documentation and pushes to `main`.
+It records reported failures as failures; it does not rerun Isaac Sim. Use
+`--dry-run` to inspect the file mapping without connecting or writing.
+
 ## Adding more objects
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Keep object-specific CAD, meshes, USD scenes,
