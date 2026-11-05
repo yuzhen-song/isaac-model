@@ -1,0 +1,139 @@
+{
+  "name": "handle_hinge",
+  "type": "revolute",
+  "parent": "body",
+  "child": "handle",
+  "units": {
+    "length": "m",
+    "angle": "degree"
+  },
+  "origin_xyz": [
+    0.21146690151718306,
+    -0.09326991421319647,
+    0.109
+  ],
+  "axis_xyz": [
+    0,
+    0,
+    1
+  ],
+  "zero": "exact exported STEP pose",
+  "body_fixed_to_world": false,
+  "mass_handle_kg": 0.00653,
+  "hardware_assignment": {
+    "1": "rigidly attached to Body",
+    "2": "rigidly attached to Body"
+  },
+  "hardware_assignment_status": "same ideal hinge convention as original package; aggregate hardware mass is known, individual split for inertia is estimated by CAD volume",
+  "rotation_limits_enabled": false,
+  "rotation_limits": {
+    "lower": "-inf",
+    "upper": "+inf"
+  },
+  "material": "white PLA",
+  "mass_body_print_kg": 0.54812,
+  "mass_pin_and_cap_total_kg": 0.00257,
+  "mass_body_rigid_assembly_kg": 0.55069,
+  "mass_total_kg": 0.55722,
+  "mass_source": "User slicer screenshots; stick 6.75 g minus 0.22 g brim; estimates, not measured values",
+  "part_masses_kg": {
+    "bottom": 0.54812,
+    "stick": 0.00653,
+    "1": 0.0019940106713456324,
+    "2": 0.0005759893286543673
+  },
+  "body_mass_properties": {
+    "mass_kg": 0.55069,
+    "center_of_mass_local_m": [
+      0.12128854474404038,
+      -0.05525070189778039,
+      0.11547387710381438
+    ],
+    "inertia_tensor_local_kg_m2": [
+      [
+        0.001974796198509997,
+        9.735617140772263e-06,
+        2.1092372259980695e-05
+      ],
+      [
+        9.735617140772263e-06,
+        0.004367702063453102,
+        7.250611087185171e-05
+      ],
+      [
+        2.1092372259980695e-05,
+        7.250611087185171e-05,
+        0.003405270372008522
+      ]
+    ],
+    "principal_inertia_kg_m2": [
+      0.0019744538318617545,
+      0.003400127946775859,
+      0.004373186855334008
+    ],
+    "inertia_model": "CAD shape with per-part uniform effective density; infill distribution not reconstructed"
+  },
+  "handle_mass_properties": {
+    "mass_kg": 0.00653,
+    "center_of_mass_local_m": [
+      -0.0033110971147864154,
+      -0.06606005581052463,
+      -9.454413238407788e-09
+    ],
+    "inertia_tensor_local_kg_m2": [
+      [
+        6.685208184559366e-06,
+        -3.242042698928744e-07,
+        4.4346432116550126e-13
+      ],
+      [
+        -3.242042698928744e-07,
+        2.3320083655361807e-07,
+        2.0327322610244007e-12
+      ],
+      [
+        4.4346432116550126e-13,
+        2.0327322610244007e-12,
+        6.724551900566321e-06
+      ]
+    ],
+    "principal_inertia_kg_m2": [
+      2.1695095580464156e-07,
+      6.701458065302656e-06,
+      6.724551900572007e-06
+    ],
+    "inertia_model": "CAD shape with per-part uniform effective density; infill distribution not reconstructed"
+  },
+  "hinge_resistance": {
+    "model": "saturated viscous zero-velocity drive",
+    "torque_cap_Nm": 0.02,
+    "damping_Nm_s_per_degree": 1.0,
+    "stiffness": 0.0,
+    "target_velocity_deg_s": 0.0,
+    "note": "Approximation to provisional 0.02 Nm resistance; not an exact Coulomb or calibrated stiction model. This brake applies no position constraint."
+  },
+  "contact_material": {
+    "static_friction": 0.5,
+    "dynamic_friction": 0.4,
+    "restitution": 0.0,
+    "status": "uncalibrated placeholders"
+  },
+  "linked_body_handle_contact_enabled": false,
+  "linked_contact_note": "Original ideal hinge keeps parent/child contact disabled to avoid pin/hole collision artifacts; physical self-stops are not modeled.",
+  "collision_approximation": "convexDecomposition; cooked hulls require inspection in Isaac",
+  "test_targets_deg": [
+    0,
+    -30,
+    0,
+    30,
+    60,
+    90,
+    120,
+    90,
+    60,
+    30,
+    0
+  ],
+  "test_targets_note": "Commands for validation, not joint limits",
+  "Isaac_runtime_tested": false
+}

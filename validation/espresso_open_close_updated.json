@@ -1,0 +1,15 @@
+{
+  "motion_checks_passed": true,
+  "checks": {
+    "open_hold_error_under_3deg": true,
+    "closed_hold_error_under_3deg": true,
+    "video_330_nonempty_frames": true,
+    "unlimited_hinge_and_original_brake_preserved": true
+  },
+  "video": "/root/autodl-tmp/espresso_updated/Espresso_Isaac_Handoff/espresso_open_close_updated.mp4",
+  "fps": 30,
+  "frames": 330,
+  "duration_s": 11.0,
+  "max_body_shift_m": 1.1378917358295071e-07,
+  "scope": "external motor torque demonstration; dynamic base and passive brake preserved; no robot grasp or calibrated friction verification"
+}

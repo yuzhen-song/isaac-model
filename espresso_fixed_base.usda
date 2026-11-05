@@ -1,0 +1,19 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    subLayers = [
+        @espresso_test.usda@
+    ]
+)
+
+over "World"
+{
+    over "Espresso"
+    {
+        over "Body"
+        {
+            bool physics:kinematicEnabled = 1
+        }
+    }
+}
+
