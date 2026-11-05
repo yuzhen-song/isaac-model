@@ -1,0 +1,22 @@
+{
+  "source": "operator report in project conversation, with archived video checked independently",
+  "operator_reported_success": true,
+  "operator_reported_checks": [
+    "passive scene",
+    "isolated hinge tracking",
+    "open-close recording"
+  ],
+  "video_metadata_verified": true,
+  "video": {
+    "path": "media/microwave_open_close.mp4",
+    "frames": 330,
+    "fps": 30,
+    "duration_s": 11,
+    "width": 1280,
+    "height": 720,
+    "size_bytes": 981914
+  },
+  "numeric_runtime_reports_archived": false,
+  "numeric_tracking_pass_independently_verified": false,
+  "scope": "scripted external motor torque; no robot grasp, calibrated friction, or real-world validation"
+}

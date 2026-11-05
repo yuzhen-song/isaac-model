@@ -1,0 +1,140 @@
+{
+  "files": [
+    {
+      "file": "docs/geometry_validation.json",
+      "bytes": 1901,
+      "sha256": "38038e69b6116769b2045661445d2606f4e9c9ba68fdd2320ecafbda12b68700"
+    },
+    {
+      "file": "docs/usd_static_validation.json",
+      "bytes": 306,
+      "sha256": "099d6c846fe83ec4598b084e4ab54d83cbadd4eb878e9e291a5eed5a392413a8"
+    },
+    {
+      "file": "joint_parameters.json",
+      "bytes": 3267,
+      "sha256": "c8514e49d0141f1bb2362bb1807eab42f40eeaca9c8bc9278aa094d4943fb79d"
+    },
+    {
+      "file": "mass_estimate.json",
+      "bytes": 2970,
+      "sha256": "53ae4c6089826270645bd3f5a6eea59756ef299c37c40bb7bef53d1f77bbeb38"
+    },
+    {
+      "file": "media/microwave_open_close.mp4",
+      "bytes": 981914,
+      "sha256": "75c53622e477f9c1fb7760ad659179155ce4402ca6c6aef2b9cc472c47a5668c"
+    },
+    {
+      "file": "meshes_assembly_mm/1.stl",
+      "bytes": 27284,
+      "sha256": "a8e6b44299dae5b613a3a8e8632cf032a69151216fed7ae88d9c9a486d9b8b1f"
+    },
+    {
+      "file": "meshes_assembly_mm/2.stl",
+      "bytes": 62484,
+      "sha256": "0d0354f71a2f2ee44725518714c964bf429296a1e51a2d069706c4b855250010"
+    },
+    {
+      "file": "meshes_assembly_mm/bottom1.stl",
+      "bytes": 746984,
+      "sha256": "191ebc0aab93dc87f2a988e02541355e0476020dcb12b5bfbf08bcdb2f91a6a9"
+    },
+    {
+      "file": "meshes_assembly_mm/door.stl",
+      "bytes": 331884,
+      "sha256": "55c1279581a5bc632c9d9b35f949b357b68e400355ebc9156f1c665dee8f9844"
+    },
+    {
+      "file": "meshes_sim_m/1.stl",
+      "bytes": 27284,
+      "sha256": "8d1c49d774a54160a73c3a258f7f831c7932fd6a9cc40b27373f0c0da26e8079"
+    },
+    {
+      "file": "meshes_sim_m/2.stl",
+      "bytes": 62484,
+      "sha256": "58877f85e41ef575c457943e4b5d9ff3f10f6201774cdbf34e3e578f513fc4eb"
+    },
+    {
+      "file": "meshes_sim_m/bottom1.stl",
+      "bytes": 746984,
+      "sha256": "105a22894c12c1094664c14d8e3efd70df7db2b3b060f27bd5ae9d7b30afdbd6"
+    },
+    {
+      "file": "meshes_sim_m/door.stl",
+      "bytes": 331884,
+      "sha256": "3c2cd5c58c5a2d4cb752a2a1448972d1be1ca7eafddcc29698c4c1a720e95ef4"
+    },
+    {
+      "file": "microwave_fixed_base.usda",
+      "bytes": 232,
+      "sha256": "7dc67af5f2c26715049886ec7cd1e64f3b74c4c0b30a6d489588cb8d39a46886"
+    },
+    {
+      "file": "microwave_test.usda",
+      "bytes": 932573,
+      "sha256": "ff949acaeddfba0f7e5b918e94b56cd5fb6045f2ab8f10d44c645e3036dea717"
+    },
+    {
+      "file": "README.md",
+      "bytes": 5357,
+      "sha256": "c8f231b0c72da53b635dded37cbfa45778131e91de91308cc14002d13dc5edc3"
+    },
+    {
+      "file": "record_microwave_motion.py",
+      "bytes": 11843,
+      "sha256": "e199947cda7e18d3dae09f95caa08144c1ff13745374e91e08afb9df6ad451b7"
+    },
+    {
+      "file": "requirements.txt",
+      "bytes": 54,
+      "sha256": "482125c51d1ae5e169ec6beca4a1fe46bdc32005349b449f35b0702c37a38502"
+    },
+    {
+      "file": "run_isaac_check.py",
+      "bytes": 3909,
+      "sha256": "6b8a1dc60af1ffe4dded34e8a150a76d9531c4712a11c1fcc2f93e1ff33d32b0"
+    },
+    {
+      "file": "run_passive_scene.py",
+      "bytes": 3833,
+      "sha256": "7e3ceeb3002d437cef3b41da2f057bef88942a85d43692b35a797d9f924e9af1"
+    },
+    {
+      "file": "source_cad/1.SLDPRT",
+      "bytes": 54770,
+      "sha256": "7fdbb6e617c8d72cde1754781665f9449842bd0e6d7bdeeba5536f31d10ca217"
+    },
+    {
+      "file": "source_cad/2.SLDPRT",
+      "bytes": 54620,
+      "sha256": "1090d874bdb0ebd4b700f595a8829f5c5dba5616b4e84f52eb93ccfebd3d327d"
+    },
+    {
+      "file": "source_cad/bottom1.SLDPRT",
+      "bytes": 310339,
+      "sha256": "a588f259949427d981dc9d97b450d6f523daf3bcf8ee29fd8ed6bb2d85971043"
+    },
+    {
+      "file": "source_cad/door.SLDPRT",
+      "bytes": 175917,
+      "sha256": "6a9617b490d5e0fc347d1c8940f1af70aa8490e60e886b5a6bd4ffb4cfd03833"
+    },
+    {
+      "file": "source_cad/microwave.SLDASM",
+      "bytes": 195502,
+      "sha256": "c009618cfec6beda10cc00fd32c92083a9686d571f6af91e3aff5e27d9fd986a"
+    },
+    {
+      "file": "source_cad/microwave.STEP",
+      "bytes": 511263,
+      "sha256": "84fd3db1154243ea00f22806056338627f1e3cb00a84a551cf20bddb26722f2d"
+    },
+    {
+      "file": "validation/runtime_summary.json",
+      "bytes": 702,
+      "sha256": "21e17bef7a84768fa486316c6b46194cd8d0a172721be787597a6bb9beb3f21a"
+    }
+  ],
+  "runtime_status": "see validation/runtime_summary.json"
+}

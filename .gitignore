@@ -4,6 +4,10 @@ __pycache__/
 *.partial.mp4
 runtime_results/
 .runtime/
-*.zip
+.venv/
 .env
 .env.*
+*.zip
+objects/*/*_open_close*.mp4
+objects/*/*_open_close*.json
+objects/*/*_open_close*.csv

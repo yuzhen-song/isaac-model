@@ -1,0 +1,78 @@
+{
+  "method": "Geometric 0.2 mm XY layer integration: 0.8 mm inward wall offset; core must be covered by 3 layers above and below; core density 15%. Corrected to exact STEP volume.",
+  "status": "estimate, not actual slicer output or measured mass",
+  "density_g_cm3": 1.24,
+  "sparse_infill_fraction": 0.15,
+  "assumed_nozzle_mm": 0.4,
+  "assumed_wall_count": 2,
+  "assumed_wall_thickness_mm": 0.8,
+  "assumed_layer_height_mm": 0.2,
+  "assumed_top_layers": 3,
+  "assumed_bottom_layers": 3,
+  "orientation": "each supplied part STL local Z is assumed to be the print build direction",
+  "exclusions": [
+    "supports",
+    "brim",
+    "purge",
+    "flow calibration",
+    "toolpath overlap",
+    "adaptive extrusion width",
+    "bridge rules"
+  ],
+  "parts": {
+    "bottom1": {
+      "CAD_volume_mm3": 1189180.525746532,
+      "solid_PLA_mass_g": 1474.5838519256997,
+      "shell_volume_mm3": 252123.09989871315,
+      "infill_region_volume_mm3": 937057.425847819,
+      "PLA_volume_mm3": 392681.713775886,
+      "estimated_mass_g": 486.92532508209865,
+      "estimated_mass_kg": 0.4869253250820986,
+      "effective_density_kg_m3": 409.46291546140264,
+      "section_volume_correction_factor": 1.0000270467366277,
+      "layers": 850,
+      "STL_watertight": true
+    },
+    "door": {
+      "CAD_volume_mm3": 90839.53606711155,
+      "solid_PLA_mass_g": 112.64102472321832,
+      "shell_volume_mm3": 17329.5042065829,
+      "infill_region_volume_mm3": 73510.03186052864,
+      "PLA_volume_mm3": 28356.008985662196,
+      "estimated_mass_g": 35.161451142221125,
+      "estimated_mass_kg": 0.03516145114222112,
+      "effective_density_kg_m3": 387.0721127004008,
+      "section_volume_correction_factor": 0.9999613933275384,
+      "layers": 134,
+      "STL_watertight": true
+    },
+    "1": {
+      "CAD_volume_mm3": 1673.9033976857131,
+      "solid_PLA_mass_g": 2.0756402131302845,
+      "shell_volume_mm3": 869.0988460625936,
+      "infill_region_volume_mm3": 804.8045516231193,
+      "PLA_volume_mm3": 989.8195288060615,
+      "estimated_mass_g": 1.2273762157195163,
+      "estimated_mass_kg": 0.0012273762157195163,
+      "effective_density_kg_m3": 733.2419645102868,
+      "section_volume_correction_factor": 1.0096777008790936,
+      "layers": 55,
+      "STL_watertight": true
+    },
+    "2": {
+      "CAD_volume_mm3": 245.8296251434013,
+      "solid_PLA_mass_g": 0.3048287351778176,
+      "shell_volume_mm3": 184.36431304861438,
+      "infill_region_volume_mm3": 61.46531209478694,
+      "PLA_volume_mm3": 193.5841098628324,
+      "estimated_mass_g": 0.2400442962299122,
+      "estimated_mass_kg": 0.00024004429622991218,
+      "effective_density_kg_m3": 976.4661036678783,
+      "section_volume_correction_factor": 0.9996611373136132,
+      "layers": 55,
+      "STL_watertight": true
+    }
+  },
+  "estimated_total_mass_g": 523.5541967362692,
+  "solid_total_mass_g": 1589.6053455972262
+}

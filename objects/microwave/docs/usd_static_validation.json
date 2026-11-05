@@ -1,0 +1,14 @@
+{
+  "static_checks_passed": true,
+  "mass_and_inertia_verified": true,
+  "joint_anchor_error_m": 2.7592965738276104e-09,
+  "unlimited_hinge": true,
+  "source_CAD_unchanged": true,
+  "geometry_preserved": true,
+  "OpenUSD_version": [
+    0,
+    26,
+    11
+  ],
+  "Isaac_runtime_tested": false
+}

@@ -1,0 +1,90 @@
+{
+  "bottom1": {
+    "watertight": true,
+    "sampled_vertex_to_STEP_max_distance_mm": 3.9349702949698164e-05,
+    "assembly_pose_recovered": true,
+    "STL_export_origin_correction_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sim_bounds_m": [
+      [
+        0.0,
+        -0.011818557739257813,
+        0.0
+      ],
+      [
+        0.2335,
+        0.158,
+        0.137
+      ]
+    ]
+  },
+  "door": {
+    "watertight": true,
+    "sampled_vertex_to_STEP_max_distance_mm": 6.008940286698281e-06,
+    "assembly_pose_recovered": true,
+    "STL_export_origin_correction_mm": [
+      0.001771393683179963,
+      4.194898451315506e-07,
+      -0.20634793825006115
+    ],
+    "sim_bounds_m": [
+      [
+        0.012874880099190045,
+        -0.02719370193489788,
+        0.009750000319489843
+      ],
+      [
+        0.15215726788453957,
+        0.0006162303685603714,
+        0.1272500003194899
+      ]
+    ]
+  },
+  "1": {
+    "watertight": true,
+    "sampled_vertex_to_STEP_max_distance_mm": 4.578893072822896e-07,
+    "assembly_pose_recovered": true,
+    "STL_export_origin_correction_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sim_bounds_m": [
+      [
+        0.012867887562475751,
+        -0.011826053921034496,
+        0.026000000000000006
+      ],
+      [
+        0.023864025378937562,
+        -0.0008281314921524538,
+        0.11000000000000001
+      ]
+    ]
+  },
+  "2": {
+    "watertight": true,
+    "sampled_vertex_to_STEP_max_distance_mm": 5.685268450984869e-07,
+    "assembly_pose_recovered": true,
+    "STL_export_origin_correction_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sim_bounds_m": [
+      [
+        0.012868667164951908,
+        -0.011826950982908296,
+        0.108
+      ],
+      [
+        0.023867097651720393,
+        -0.0008269509829082952,
+        0.111
+      ]
+    ]
+  }
+}

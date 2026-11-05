@@ -1,0 +1,125 @@
+{
+  "material": "white PLA, 15% sparse infill with provisional shell settings",
+  "mass_source": "geometric layer estimate, not actual slicer output",
+  "part_masses_kg": {
+    "bottom1": 0.4869253250820986,
+    "door": 0.03516145114222112,
+    "1": 0.0012273762157195163,
+    "2": 0.00024004429622991218
+  },
+  "mass_body_rigid_assembly_kg": 0.48839274559404805,
+  "mass_door_kg": 0.03516145114222112,
+  "mass_total_kg": 0.5235541967362691,
+  "body_mass_properties": {
+    "mass_kg": 0.48839274559404805,
+    "center_of_mass_local_m": [
+      0.11903767442621879,
+      0.07945102618340903,
+      0.06681932669657703
+    ],
+    "inertia_tensor_local_kg_m2": [
+      [
+        0.0025615940491602084,
+        6.064317010706184e-05,
+        -2.1344974807728056e-05
+      ],
+      [
+        6.064317010706184e-05,
+        0.00451637106497092,
+        -4.039328358880707e-06
+      ],
+      [
+        -2.1344974807728056e-05,
+        -4.039328358880707e-06,
+        0.00427896813891901
+      ]
+    ],
+    "principal_inertia_kg_m2": [
+      0.002559452905023608,
+      0.004279137436793713,
+      0.004518342911232819
+    ],
+    "inertia_approximation": "uniform per-part effective density scaled to shell/infill mass estimate"
+  },
+  "door_mass_properties": {
+    "mass_kg": 0.03516145114222112,
+    "center_of_mass_local_m": [
+      0.07866683657835412,
+      -0.00033923946732690533,
+      -1.6388870705721925e-05
+    ],
+    "inertia_tensor_local_kg_m2": [
+      [
+        5.6513933924549863e-05,
+        2.28938789099858e-06,
+        -4.466207329404263e-08
+      ],
+      [
+        2.28938789099858e-06,
+        0.00012648341222275573,
+        5.67719795607401e-10
+      ],
+      [
+        -4.466207329404263e-08,
+        5.67719795607401e-10,
+        7.181846449808791e-05
+      ]
+    ],
+    "principal_inertia_kg_m2": [
+      5.6438975948976064e-05,
+      7.181859415160964e-05,
+      0.00012655824054480774
+    ],
+    "inertia_approximation": "uniform per-part effective density scaled to shell/infill mass estimate"
+  },
+  "origin_xyz": [
+    0.01836788252568278,
+    -0.006326950982908293,
+    0.0685
+  ],
+  "axis_xyz": [
+    0,
+    0,
+    1
+  ],
+  "axis_CAD_mm": [
+    18.36788252568278,
+    68.5,
+    6.3269509829082935
+  ],
+  "CAD_to_sim_rotation": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "rotation_limits_enabled": false,
+  "body_fixed_to_world": false,
+  "hinge_brake_torque_cap_Nm": 0.02,
+  "hinge_brake_status": "provisional, carried from espresso setup, not measured for microwave",
+  "hinge_brake_model": "saturated viscous zero-velocity drive, damping 1 Nm*s/degree; not exact Coulomb friction",
+  "hardware_assignment": {
+    "1": "rigidly attached to body",
+    "2": "rigidly attached to body"
+  },
+  "linked_body_door_contact_enabled": false,
+  "linked_contact_status": "ideal hinge; internal pin/hole contacts and mechanical self-stops not modeled",
+  "external_contact": {
+    "static_friction": 0.5,
+    "dynamic_friction": 0.4,
+    "restitution": 0.0,
+    "status": "uncalibrated"
+  },
+  "Isaac_runtime_tested": false
+}

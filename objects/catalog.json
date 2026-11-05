@@ -1,0 +1,32 @@
+{
+  "units": {"length": "metre", "mass": "kilogram", "up_axis": "Z"},
+  "isaac_sim_version": "5.1.0",
+  "python_version": "3.11",
+  "objects": [
+    {
+      "name": "espresso",
+      "path": "objects/espresso",
+      "main_scene": "espresso_test.usda",
+      "fixed_base_scene": "espresso_fixed_base.usda",
+      "recorder": "record_espresso_motion.py",
+      "total_mass_kg": 0.55722,
+      "mass_provenance": "per-part slicer estimates",
+      "angular_limits_enabled": false,
+      "video": "media/espresso_open_close_updated.mp4",
+      "numeric_tracking_report": "validation/espresso_open_close_updated.json"
+    },
+    {
+      "name": "microwave",
+      "path": "objects/microwave",
+      "main_scene": "microwave_test.usda",
+      "fixed_base_scene": "microwave_fixed_base.usda",
+      "recorder": "record_microwave_motion.py",
+      "total_mass_kg": 0.5235541967362692,
+      "mass_provenance": "geometric estimate: PLA, 15% infill, 0.8 mm walls, 0.6 mm top and bottom",
+      "angular_limits_enabled": false,
+      "video": "media/microwave_open_close.mp4",
+      "numeric_tracking_report": null,
+      "validation_summary": "validation/runtime_summary.json"
+    }
+  ]
+}
