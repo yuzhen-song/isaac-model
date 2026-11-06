@@ -12,8 +12,9 @@ appearance, masses, collision geometry and unlimited hinges are already configur
 | --- | --- | --- | --- | --- |
 | Espresso machine | [objects/espresso](objects/espresso/) | [espresso_test.usda](objects/espresso/espresso_test.usda) | PLA, 15% infill; **558.47 g** estimated total | [0° → −90° → 0° video](objects/espresso/media/espresso_open_close_updated.mp4); [tracking report](objects/espresso/validation/espresso_open_close_updated.json) |
 | Microwave | [objects/microwave](objects/microwave/) | [microwave_test.usda](objects/microwave/microwave_test.usda) | PLA, **15% infill** plus provisional shell settings; **523.55 g** estimated total | [0° → −90° → 0° video](objects/microwave/media/microwave_open_close.mp4); [validation summary](objects/microwave/validation/runtime_summary.json) |
+| Waffle iron | [objects/waffleiron](objects/waffleiron/) | [fixed-base scene](objects/waffleiron/waffleiron_test.usda) | 850 g, provisional | [Open/close video](objects/waffleiron/media/waff_open_close.mp4) · [tracking report](objects/waffleiron/validation/runtime_summary.json) |
 
-Both scenes use metres, kilograms and a Z-up world, with a movable body and an
+The espresso and microwave scenes use metres, kilograms and a Z-up world, with a movable body and an
 unlimited revolute hinge. The individual object README and `joint_parameters.json`
 are the authoritative configuration references. New objects follow the same layout.
 
@@ -50,6 +51,7 @@ for driver and platform compatibility.
 | --- | --- |
 | `espressomachine` | [`objects/espresso/espresso_asset.usda`](objects/espresso/espresso_asset.usda) |
 | `microwave` | [`objects/microwave/microwave_asset.usda`](objects/microwave/microwave_asset.usda) |
+| `waffleiron` | [objects/waffleiron/waffleiron_asset.usda](objects/waffleiron/waffleiron_asset.usda) |
 
 Use these entries when replacing the simulation asset. They keep geometry,
 materials, masses and the unlimited joint while disabling the demo table,
@@ -120,7 +122,7 @@ driver. Standard working graphics environments can use their default configurati
   are not explicitly modeled.
 - Hinge resistance is a provisional saturated viscous brake capped at **0.02 N·m**,
   not measured breakaway friction. External contact uses provisional coefficients.
-- Hinges have no angular limits. Body-to-moving-part contacts are disabled for the
+- Espresso and microwave hinges have no angular limits. Waffle iron demo limits are −90° to 0°. Body-to-moving-part contacts are disabled for the
   ideal pin/hinge assembly, so internal contact and mechanical self-stops are not
   represented. Tabletop and external robot contact remain enabled.
 - Dynamic mesh collision uses convex decomposition. Inspect cooked colliders when

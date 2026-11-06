@@ -1,0 +1,7 @@
+#usda 1.0
+(
+    subLayers = [@waff.usdc@]
+    defaultPrim = "Waff"
+    metersPerUnit = 1
+    upAxis = "Z"
+)

@@ -1,0 +1,17 @@
+{
+  "axis": "Y",
+  "anchor_m": [
+    0,
+    0,
+    0.0185
+  ],
+  "limits_deg": [
+    -90,
+    0
+  ],
+  "closed_deg": 0,
+  "fixed_base_in_test": true,
+  "body_mass_kg": 0.5,
+  "top_mass_kg": 0.35,
+  "mass_provenance": "provisional demo values"
+}

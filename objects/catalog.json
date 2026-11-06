@@ -56,6 +56,30 @@
         "scene_props_active": false,
         "articulation_root_authored_by_default": false
       }
+    },
+    {
+      "name": "waffleiron",
+      "arctic_name": "waffleiron",
+      "path": "objects/waffleiron",
+      "main_scene": "waffleiron_test.usda",
+      "fixed_base_scene": "waffleiron_test.usda",
+      "recorder": "record_waffleiron_motion.py",
+      "total_mass_kg": 0.85,
+      "mass_provenance": "provisional demo values",
+      "angular_limits_enabled": true,
+      "video": "media/waff_open_close.mp4",
+      "numeric_tracking_report": "validation/runtime_summary.json",
+      "validation_summary": "validation/runtime_summary.json",
+      "integration": {
+        "asset_file": "waffleiron_asset.usda",
+        "default_prim": "/Asset",
+        "body_relative_path": "Waff/Base",
+        "moving_relative_path": "Waff/Top",
+        "hinge_relative_path": "Waff/Hinge",
+        "scale": 1,
+        "scene_props_active": false,
+        "articulation_root_authored_by_default": false
+      }
     }
   ]
 }

@@ -5,7 +5,7 @@ from pathlib import Path
 import sys
 
 parser = argparse.ArgumentParser(description=__doc__)
-parser.add_argument("--object", choices=("microwave", "espresso", "espressomachine"), default="microwave")
+parser.add_argument("--object", choices=("microwave", "espresso", "espressomachine", "waffleiron"), default="microwave")
 parser.add_argument("--headless", action="store_true")
 parser.add_argument("--seconds", type=float, default=3.)
 args, unknown = parser.parse_known_args()
