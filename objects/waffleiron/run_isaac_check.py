@@ -19,11 +19,19 @@ def run():
     from isaacsim.core.api import SimulationContext
 
     ctx = omni.usd.get_context()
-    if not ctx.open_stage(str(root / "waff.usdc")):
-        raise RuntimeError("Could not open waff.usdc")
+    if not ctx.open_stage(str(root / "waffleiron_test.usda")):
+        raise RuntimeError("Could not open waffleiron_test.usda")
     for _ in range(30):
         app.update()
     joint = ctx.get_stage().GetPrimAtPath("/Waff/Hinge")
+    expected = json.loads((root/"mass_estimate.json").read_text())["actors"]
+    checked_masses = {}
+    for body, values in expected.items():
+        actor = ctx.get_stage().GetPrimAtPath("/Waff/" + body)
+        actual = UsdPhysics.MassAPI(actor).GetMassAttr().Get()
+        if not math.isclose(actual, values["mass_kg"], rel_tol=1e-6):
+            raise ValueError(f"{body} mass mismatch: {actual}")
+        checked_masses[body] = actual
     drive = UsdPhysics.DriveAPI.Apply(joint, "angular")
     drive.CreateTypeAttr("force")
     drive.CreateStiffnessAttr(1.5)
@@ -58,7 +66,7 @@ def run():
         writer = csv.writer(stream)
         writer.writerow(["time_s", "target_open_deg","actual_open_deg","anchor_drift_m","off_axis_deg"])
         writer.writerows(rows)
-    (root/"result.json").write_text(json.dumps({"passed":bool(passed), "final_open_deg":[r[2] for r in finals]}, indent=2))
+    (root/"result.json").write_text(json.dumps({"passed":bool(passed), "authored_mass_kg":checked_masses, "final_open_deg":[r[2] for r in finals]}, indent=2))
     if not passed:
         raise RuntimeError("Tracking failed; inspect result.json and motion.csv")
     print("WAFF_PASS", flush=True)

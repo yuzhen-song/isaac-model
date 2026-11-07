@@ -12,7 +12,8 @@ appearance, masses, collision geometry and unlimited hinges are already configur
 | --- | --- | --- | --- | --- |
 | Espresso machine | [objects/espresso](objects/espresso/) | [espresso_test.usda](objects/espresso/espresso_test.usda) | PLA, 15% infill; **558.47 g** estimated total | [0° → −90° → 0° video](objects/espresso/media/espresso_open_close_updated.mp4); [tracking report](objects/espresso/validation/espresso_open_close_updated.json) |
 | Microwave | [objects/microwave](objects/microwave/) | [microwave_test.usda](objects/microwave/microwave_test.usda) | PLA, **15% infill** plus provisional shell settings; **523.55 g** estimated total | [0° → −90° → 0° video](objects/microwave/media/microwave_open_close.mp4); [validation summary](objects/microwave/validation/runtime_summary.json) |
-| Waffle iron | [objects/waffleiron](objects/waffleiron/) | [fixed-base scene](objects/waffleiron/waffleiron_test.usda) | 850 g, provisional | [Open/close video](objects/waffleiron/media/waff_open_close.mp4) · [tracking report](objects/waffleiron/validation/runtime_summary.json) |
+| Mixer | [objects/mixer](objects/mixer/) | [Fixed-base scene](objects/mixer/mixer_test.usda) | [PLA 15%, 312.45 g](objects/mixer/mass_estimate.json) | [Replay](objects/mixer/media/mixer_open_close.mp4) · [Tracking report](objects/mixer/validation/runtime_summary.json) |
+| Waffle iron | [objects/waffleiron](objects/waffleiron/) | [Fixed-base scene](objects/waffleiron/waffleiron_test.usda) | [PLA 15%, 225.28 g](objects/waffleiron/mass_estimate.json) | [Replay](objects/waffleiron/media/waff_open_close.mp4) · [Tracking report](objects/waffleiron/validation/runtime_summary.json) |
 
 The espresso and microwave scenes use metres, kilograms and a Z-up world, with a movable body and an
 unlimited revolute hinge. The individual object README and `joint_parameters.json`
@@ -51,6 +52,7 @@ for driver and platform compatibility.
 | --- | --- |
 | `espressomachine` | [`objects/espresso/espresso_asset.usda`](objects/espresso/espresso_asset.usda) |
 | `microwave` | [`objects/microwave/microwave_asset.usda`](objects/microwave/microwave_asset.usda) |
+| `mixer` | [objects/mixer/mixer_asset.usda](objects/mixer/mixer_asset.usda) |
 | `waffleiron` | [objects/waffleiron/waffleiron_asset.usda](objects/waffleiron/waffleiron_asset.usda) |
 
 Use these entries when replacing the simulation asset. They keep geometry,

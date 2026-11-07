@@ -1,17 +1,19 @@
 {
   "axis": "Y",
+  "closed_deg": 0,
+  "limits_deg": [
+    -90,
+    0
+  ],
   "anchor_m": [
     0,
     0,
     0.0185
   ],
-  "limits_deg": [
-    -90,
-    0
-  ],
-  "closed_deg": 0,
-  "fixed_base_in_test": true,
-  "body_mass_kg": 0.5,
-  "top_mass_kg": 0.35,
-  "mass_provenance": "provisional demo values"
+  "mass_kg": {
+    "Base": 0.11403789672169008,
+    "Top": 0.11123854536521309
+  },
+  "mass_provenance": "15% PLA, layer-integrated shell and core; see mass_estimate.json",
+  "fixed_base_in_test": true
 }
